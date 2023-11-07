@@ -12,7 +12,7 @@ const LoginViews = () => {
 
   return (
     <div className={style.login}>
-      <h1>Login Page</h1>
+      <h1 className="text-3xl font-bold">Login Page</h1>
       <button onClick={() => handlerLogin()}>Login</button>
       <p>
         Belum Punya Akun ? <Link href="/auth/register">Register</Link>
