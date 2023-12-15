@@ -15,7 +15,7 @@ const ProductView = ({ products }: { products: ProducType[] }) => {
     <div className={styles.product}>
       <h1 className={styles.product__title}>Products</h1>
       <div className={styles.product__content}>
-        {products.length > 0 ? (
+        {products?.length > 0 ? (
           <>
             {products.map((item: ProducType) => (
               <div key={item.id} className={styles.product__content__item}>
